@@ -1,9 +1,10 @@
 import "./app.scss"
+import Navbar from "./components/navbar/Navbar"
 
 export default function App() {
   return (
     <div>
-      <section><a href="">Hero</a></section>
+      <section><Navbar /></section>
       <section>Parallax</section>
       <section>Services</section>
       <section>Parallax</section>

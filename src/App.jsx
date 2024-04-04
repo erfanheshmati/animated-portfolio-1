@@ -3,7 +3,7 @@ import "./app.scss"
 export default function App() {
   return (
     <div>
-      <section>Hero</section>
+      <section><a href="">Hero</a></section>
       <section>Parallax</section>
       <section>Services</section>
       <section>Parallax</section>

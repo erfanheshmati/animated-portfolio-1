@@ -24,6 +24,20 @@ const textVariants = {
     }
 }
 
+const sliderVariants = {
+    initial: {
+        x: 0,
+    },
+    animate: {
+        x: "220%",
+        transition: {
+            duration: 20,
+            repeat: Infinity,
+            repeatType: "mirror"
+        }
+    }
+}
+
 export default function Hero() {
     return (
         <div className="hero">
@@ -38,9 +52,9 @@ export default function Hero() {
                     <motion.img src="/scroll.png" alt="" variants={textVariants} animate="scrollButton" />
                 </motion.div>
             </div>
-            <div className="slidingTextContainer">
+            <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
                 Writer Content Creator Influencer
-            </div>
+            </motion.div>
             <div className="imageContainer">
                 <img src="/hero.png" alt="" />
             </div>

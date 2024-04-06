@@ -47,10 +47,10 @@ export default function Hero() {
                     <motion.h1 variants={textVariants}>Web Developer <br /> UI/UX Designer</motion.h1>
                     <motion.div className="buttons" variants={textVariants}>
                         <motion.button variants={textVariants}>
-                            <a href="#works">See the Latest Works</a>
+                            <a href="#Works">See the Latest Works</a>
                         </motion.button>
                         <motion.button variants={textVariants}>
-                            <a href="#contact">Contact Me</a>
+                            <a href="#Contact">Contact Me</a>
                         </motion.button>
                     </motion.div>
                     <motion.img src="/scroll.png" alt="" variants={textVariants} animate="scrollButton" className="scrollButton" />

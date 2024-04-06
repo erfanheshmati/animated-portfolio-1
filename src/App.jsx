@@ -11,21 +11,21 @@ export default function App() {
   return (
     <div>
       <Cursor />
-      <section id="homepage">
+      <section id="Homepage">
         <Navbar />
         <Hero />
       </section>
-      <section id="services">
+      <section id="Services">
         <Parallax type="services" />
       </section>
       <section>
         <Services />
       </section>
-      <section id="portfolio">
+      <section id="Portfolio">
         <Parallax type="portfolio" />
       </section>
       <Portfolio />
-      <section id="contact">
+      <section id="Contact">
         <Contact />
       </section>
     </div>

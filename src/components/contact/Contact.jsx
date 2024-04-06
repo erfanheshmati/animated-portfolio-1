@@ -38,7 +38,7 @@ export default function Contact() {
 
     return (
         <>
-            <Toaster toastOptions={{ duration: 3000, style: { maxWidth: "30%" } }} />
+            <Toaster toastOptions={{ duration: 3000, style: { maxWidth: "100%", textAlign: "center" } }} />
             <motion.div className="contact" variants={variants} initial="initial" whileInView="animate" ref={ref} >
                 <motion.div className="textContainer" variants={variants}>
                     <motion.h1 variants={variants}>Let's work together</motion.h1>
@@ -57,7 +57,7 @@ export default function Contact() {
                 </motion.div>
                 <div className="formContainer">
                     <motion.div className="phoneSvg" initial={{ opacity: 1 }} whileInView={{ opacity: 0 }} transition={{ delay: 3, duration: 1 }}>
-                        <svg width="450px" height="450px" viewBox="0 0 32.666 32.666">
+                        <svg width="500px" height="500px" viewBox="0 0 32.666 32.666">
                             <motion.path
                                 strokeWidth={0.2}
                                 fill="none"

@@ -25,7 +25,7 @@ export default function Services() {
     const isInView = useInView(ref, { margin: "-100px" })
 
     return (
-        <motion.div className="services" variants={variants} initial="initial" animate={isInView && "animate"} ref={ref}>
+        <motion.div className="services" variants={variants} initial="initial" animate={"animate"} ref={ref}>
             <motion.div className="textContainer" variants={variants}>
                 <p>
                     I focus on helping your brand
@@ -42,37 +42,37 @@ export default function Services() {
                 </div>
                 <div className="title">
                     <h1>
-                        <motion.b whileHover={{ color: "orange" }}>For Your</motion.b> Business.
+                        <motion.b whileHover={{ color: "orange" }}>For Your</motion.b> Business
                     </h1>
                     <button>What We Do?</button>
                 </div>
             </motion.div>
             <motion.div className="listContainer" variants={variants}>
-                <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
+                <motion.div className="box">
                     <h2>Branding</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, delectus veritatis aliquid vitae cum similique ipsa doloremque ullam voluptatibus, ab est quibusdam iste, ad facilis recusandae ut id eaque odio.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, delectus veritatis aliquid vitae cum similique ipsa doloremque ullam voluptatibus.
                     </p>
                     <button>Go</button>
                 </motion.div>
-                <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
-                    <h2>Branding</h2>
+                <motion.div className="box">
+                    <h2>Design</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, delectus veritatis aliquid vitae cum similique ipsa doloremque ullam voluptatibus, ab est quibusdam iste, ad facilis recusandae ut id eaque odio.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, delectus veritatis aliquid vitae cum similique ipsa doloremque ullam voluptatibus.
                     </p>
                     <button>Go</button>
                 </motion.div>
-                <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
-                    <h2>Branding</h2>
+                <motion.div className="box">
+                    <h2>Development</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, delectus veritatis aliquid vitae cum similique ipsa doloremque ullam voluptatibus, ab est quibusdam iste, ad facilis recusandae ut id eaque odio.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, delectus veritatis aliquid vitae cum similique ipsa doloremque ullam voluptatibus.
                     </p>
                     <button>Go</button>
                 </motion.div>
-                <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
-                    <h2>Branding</h2>
+                <motion.div className="box">
+                    <h2>SEO</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, delectus veritatis aliquid vitae cum similique ipsa doloremque ullam voluptatibus, ab est quibusdam iste, ad facilis recusandae ut id eaque odio.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, delectus veritatis aliquid vitae cum similique ipsa doloremque ullam voluptatibus.
                     </p>
                     <button>Go</button>
                 </motion.div>

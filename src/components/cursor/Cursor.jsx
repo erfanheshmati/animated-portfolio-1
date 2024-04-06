@@ -16,6 +16,6 @@ export default function Cursor() {
     }, [])
 
     return (
-        <motion.div className="cursor" animate={{ x: position.x, y: position.y }}></motion.div>
+        <motion.div className="cursor" animate={{ x: position.x + 7, y: position.y + 7 }}></motion.div>
     )
 }

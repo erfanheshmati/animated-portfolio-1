@@ -30,6 +30,7 @@
       stroke: orange;
       position: absolute;
       margin: auto;
+      z-index: -1;
     }
 
     form {
@@ -44,7 +45,6 @@
         border: 1px solid white;
         color: white;
         border-radius: 5px;
-        z-index: 1;
       }
 
       button {
@@ -54,7 +54,6 @@
         background-color: orange;
         font-weight: 700;
         cursor: pointer;
-        z-index: 1;
       }
       button:hover {
         opacity: 0.7;

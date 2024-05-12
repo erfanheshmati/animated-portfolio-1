@@ -43,8 +43,8 @@ export default function Hero() {
         <div className="hero">
             <div className="wrapper">
                 <motion.div className="textContainer" variants={textVariants} initial="initial" animate="animate">
-                    <motion.h2 variants={textVariants}>Erfan Heshmati</motion.h2>
-                    <motion.h1 variants={textVariants}>Web Developer <br /> UI/UX Designer</motion.h1>
+                    <motion.h2 variants={textVariants}>Peter Magnussen</motion.h2>
+                    <motion.h1 variants={textVariants}>UI/UX Designer <br /> Web Developer</motion.h1>
                     <motion.div className="buttons" variants={textVariants}>
                         <motion.button variants={textVariants}>
                             <a href="#Works">See the Latest Works</a>

@@ -14,6 +14,9 @@
     @include mobile {
       padding: 0 4px;
     }
+    @include laptop {
+      max-width: 1320px;
+    }
 
     .textContainer {
       width: 50%;
